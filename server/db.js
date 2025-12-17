@@ -25,7 +25,10 @@ const initDB = () => {
       height REAL,
       weight REAL,
       goal TEXT,
-      diet_type TEXT
+      diet_type TEXT,
+      otp_email TEXT,
+      otp_phone TEXT,
+      otp_expires DATETIME
     )`);
 
         // Plans Table (Stores the latest plan for the user)
